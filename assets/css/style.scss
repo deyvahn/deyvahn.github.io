@@ -15,8 +15,6 @@
 
 body {
   font-family: "Lato", sans-serif;
-  opacity: 0;
-  transition: opacity 500ms;
 }
 
 header {
@@ -66,7 +64,7 @@ a i {
   text-align: center;
   color: white;
   opacity: 0.39;
-  transition: opacity 500ms;
+  transition: opacity 250ms;
 }
 
 a:hover {
