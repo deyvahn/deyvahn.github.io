@@ -21,7 +21,6 @@ body {
 
 header {
   background-color: var(--ocean-green);
-  color: white;
   padding: 10px;
   border-radius: 5px;
 }
@@ -59,10 +58,12 @@ h5 {
 
 .description {
   text-align: center;
+  color: white;
 }
 
 a i {
   text-align: center;
+  color: white;
   opacity: 0.39;
   transition: opacity 500ms;
 }
