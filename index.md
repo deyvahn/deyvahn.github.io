@@ -17,3 +17,19 @@ This project combines the ability to load geometry at render-time alongside a po
 <p class="right-align"><a href="/portfolio/whiskey-on-the-rocks">&#62;&#62;</a></p>
 
 ---
+
+## Audio Visualizer
+
+<a href="/portfolio/audio-visualizer">![](/assets/graphics/audio-visualizer.png)</a>
+
+Leverage the Minium audio library and Processing, this project has simple shapes and colors that are driven by and morph with the song being played.
+
+<p class="right-align"><a href="/portfolio/audio-visualizer">&#62;&#62;</a></p>
+
+## Cashflow Classic
+
+<a href="/portfolio/cashflow-classic">![](/assets/graphics/cashflow-classic.png)</a>
+
+YETi CGI partnered with Rich Dad to port their Flash web game of the same name to modern web standards.
+
+<p class="right-align"><a href="/portfolio/cashflow-classic">&#62;&#62;</a></p>
