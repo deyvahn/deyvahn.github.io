@@ -32,20 +32,23 @@ pre {
 }
 
 h2,
-h3,
 h4,
-h5,
 h6 {
-  font-family: "Pacifico", sans-serif;
-  text-align: center;
-  font-weight: 400;
   color: var(--tropical-orange);
 }
 
+h3,
+h5 {
+  font-weight: 400;
+  color: var(--ocean-green);
+}
 .description {
+  font-family: "Pacifico", sans-serif;
+  font-weight: 400;
   color: var(--ocean-green);
 }
 
-a h1 {
+a i {
+  text-align: center;
   color: #727272;
 }
