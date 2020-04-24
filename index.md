@@ -26,6 +26,8 @@ Leverage the Minium audio library and Processing, this project has simple shapes
 
 <p class="right-align"><a href="/portfolio/audio-visualizer">&#62;&#62;</a></p>
 
+---
+
 ## Cashflow Classic
 
 <a href="/portfolio/cashflow-classic">![](/assets/graphics/cashflow-classic.png)</a>
