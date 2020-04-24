@@ -16,7 +16,7 @@
 body {
   font-family: "Lato", sans-serif;
   opacity: 0;
-  transition: opacity 250ms;
+  transition: opacity 500ms;
 }
 
 pre {
@@ -36,5 +36,9 @@ h2 {
   font-family: "Pacifico", sans-serif;
   text-align: center;
   font-weight: 400;
+  color: var(--tropical-orange);
+}
+
+.description {
   color: var(--ocean-green);
 }
