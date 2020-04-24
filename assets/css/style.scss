@@ -6,6 +6,12 @@
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/remixicon@2.4.0/fonts/remixicon.css");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+:root {
+  --ocean-green: #7acc9e;
+  --tropical-orange: #fe6f4f;
+}
 
 body {
   font-family: "Lato", sans-serif;
@@ -16,9 +22,15 @@ pre {
 }
 
 .contact-info {
-  text-align: center;
+  color: #727272;
 }
 
 .logo {
   margin-bottom: 20px;
+}
+
+h1 {
+  font-family: "Pacifico", sans-serif;
+  text-align: center;
+  color: var(--ocean-green);
 }
