@@ -10,12 +10,7 @@ Hello! 👋 My name is Devon Ducharme and I am currently a graduate student at S
 
 ![Whiskey on the Rocks](/assets/graphics/whiskey.jpg)
 
-<h1 class=tools-row>
-        <img src="/assets/graphics/cpp.svg"></img>&emsp;
-        <img src="/assets/graphics/python.svg"></img>&emsp;
-        <img src="/assets/graphics/maya.svg"></img>&emsp;
-        <img src="/assets/graphics/renderman.svg"></img>
-</h1>
+![Whiskey on the Rocks Tools](/assets/graphics/whiskey-tools-row.svg)
 
 ```markdown
 Syntax highlighted code block
