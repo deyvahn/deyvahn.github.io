@@ -20,7 +20,7 @@ This project combines the ability to load geometry at render-time alongside a po
 
 ## Audio Visualizer
 
-<a href="/portfolio/audio-visualizer">![](/assets/graphics/audio-visualizer.png)</a>
+<a href="/portfolio/audio-visualizer">![](/assets/graphics/audio-visualizer.PNG)</a>
 
 Leverage the Minium audio library and Processing, this project has simple shapes and colors that are driven by and morph with the song being played.
 
@@ -33,3 +33,5 @@ Leverage the Minium audio library and Processing, this project has simple shapes
 YETi CGI partnered with Rich Dad to port their Flash web game of the same name to modern web frameworks.
 
 <p class="right-align"><a href="/portfolio/cashflow-classic">&#62;&#62;</a></p>
+
+---
