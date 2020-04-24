@@ -57,5 +57,11 @@ h5 {
 
 a i {
   text-align: center;
-  color: #727272;
+  color: var(--tropical-orange);
+  opacity: 0.9;
+  transition: opacity 500ms;
+}
+
+a i:hover {
+  opacity: 1;
 }
