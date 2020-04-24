@@ -19,7 +19,7 @@
         -->
         
         {% if site.logo %}
-          <img class="logo" src="{{site.logo | relative_url}}" alt="Logo" />
+          <a href="/"><img class="logo" src="{{site.logo | relative_url}}" alt="Logo" /></a>
         {% endif %}
 
         <h2 class="description">{{ site.description | default: site.github.project_tagline }}</h2>
