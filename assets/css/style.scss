@@ -11,6 +11,7 @@
 :root {
   --ocean-green: #7acc9e;
   --tropical-orange: #fe6f4f;
+  --fade-in: opacity 250ms;
 }
 
 body {
@@ -71,8 +72,8 @@ h5 {
 a i {
   text-align: center;
   color: white;
-  opacity: 0.9;
-  transition: opacity 250ms;
+  opacity: 0.5;
+  transition: var(--fade-in);
 }
 
 a:hover {
@@ -95,9 +96,9 @@ a i:hover {
 }
 
 .right-align a {
-  opacity: 0.9;
+  opacity: 0.5;
   color: var(--ocean-green);
-  transition: opacity 500ms;
+  transition: var(--fade-in);
 }
 
 .right-align a:hover {
