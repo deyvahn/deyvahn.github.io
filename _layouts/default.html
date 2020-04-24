@@ -11,7 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body onload="document.body.style.opacity='1'">
     <div class="wrapper">
       <header>
         <!--
@@ -22,7 +22,7 @@
           <img class="logo" src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <h1>{{ site.description | default: site.github.project_tagline }}</h1>
+        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
         <h1 class=contact-info>
             <a href="@mailto:contact@deyvahn.io"><i class="ri-mail-fill"></i></a>&emsp;&emsp;
