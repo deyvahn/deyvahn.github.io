@@ -31,20 +31,27 @@ pre {
   margin-bottom: 20px;
 }
 
+h1,
+h2 {
+  font-family: "Pacifico", sans-serif;
+  font-weight: 400;
+}
+
 h2,
 h4,
 h6 {
-  color: var(--tropical-orange);
+  color: var(--ocean-green);
 }
 
+h1,
 h3,
 h5 {
   font-weight: 400;
-  color: var(--ocean-green);
+  color: var(--tropical-orange);
 }
+
 .description {
-  font-family: "Pacifico", sans-serif;
-  font-weight: 400;
+  text-align: center;
   color: var(--ocean-green);
 }
 
