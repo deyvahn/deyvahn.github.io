@@ -71,7 +71,7 @@ h5 {
 a i {
   text-align: center;
   color: white;
-  opacity: 0.39;
+  opacity: 0.9;
   transition: opacity 250ms;
 }
 
@@ -89,6 +89,18 @@ a i:hover {
 }
 
 .right-align {
-  font-weight: 900;
+  font-family: "Pacifico", sans-serif;
+  font-weight: 400;
   text-align: right;
+}
+
+.right-align a {
+  opacity: 0.9;
+  color: var(--ocean-green);
+  transition: opacity 500ms;
+}
+
+.right-align a:hover {
+  font-weight: 400;
+  opacity: 1;
 }
