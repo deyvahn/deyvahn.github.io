@@ -8,26 +8,6 @@ Hello! 👋 My name is Devon Ducharme and I am currently a graduate student at S
 
 ## Whiskey on the Rocks
 
-![Whiskey on the Rocks](/assets/graphics/whiskey.jpg)
+![](/assets/graphics/whiskey.jpg)
 
-![Whiskey on the Rocks Tools](/assets/graphics/whiskey-tools-row.svg)
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
+![](/assets/graphics/whiskey-tools-row.svg)
