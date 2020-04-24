@@ -8,6 +8,4 @@ Hello! 👋 My name is Devon Ducharme and I am currently a graduate student at S
 
 ## Whiskey on the Rocks
 
-![](/assets/graphics/whiskey.jpg)
-
-![](/assets/graphics/whiskey-tools-row.svg)
+[![](/assets/graphics/whiskey-banner.png)](/assets/graphics/whiskey-banner.png)
