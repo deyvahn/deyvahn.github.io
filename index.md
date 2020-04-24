@@ -1,14 +1,8 @@
-# Header 1
+# About Me
 
-## Header 2
+Hello! 👋 My name is Devon Ducharme and I am currently a graduate student at Savannah College of Art and Design studying Interactive Design and Game Development. I am a tinkerer at heart with a passion for programming, computer graphics and problem-solving. When I am not
 
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
+# Featured Projects
 
 This is some paragraph text.
 
