@@ -6,9 +6,16 @@ Hello! 👋 My name is Devon Ducharme and I am currently a graduate student at S
 
 # Featured Projects
 
-This is some paragraph text.
+## Whiskey on the Rocks
 
-[Here is a link](https://google.com).
+![Whiskey on the Rocks](/assets/graphics/whiskey.jpg)
+
+<h1 class=tools-row>
+        <img src="/assets/graphics/cpp.svg"></img>&emsp;
+        <img src="/assets/graphics/python.svg"></img>&emsp;
+        <img src="/assets/graphics/maya.svg"></img>&emsp;
+        <img src="/assets/graphics/renderman.svg"></img>
+</h1>
 
 ```markdown
 Syntax highlighted code block
