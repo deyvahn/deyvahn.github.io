@@ -8,6 +8,8 @@
 
 The goal of this project was to use Maya's Python API and RenderMan's C++ API to procedurally load and place geometry at render-time. After exploring the shaders in RenderMan's Preset Browser and Pixar's Material Packs [1](https://renderman.pixar.com/material-pack-01) and [2](https://renderman.pixar.com/material-pack-02), I was inspired to make a glass of whiskey with the ice on top. Generating ice at render-time also gave me the opportunity to leverage my video game programming background to use axis-aligned bounding box collision detection to prevent the ice from overlapping one another.
 
+---
+
 # Process
 
 ---
