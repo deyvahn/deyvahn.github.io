@@ -23,13 +23,39 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">Devon Ducharme</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
+      <!-- {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       {% endif %}
       {% if site.show_downloads %}
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
+      {% endif %} -->
+      <nav class="navigation">
+          <section>
+            <a href="mailto:contact@deyvahn.io" target="_blank">
+                <i class="ri-mail-fill"></i><br>
+                Contact
+            </a>
+          </section>
+          <section>
+            <a href="{{ site.github.owner_url }}" target="_blank">
+                <i class="ri-github-fill"></i><br>
+                Github
+            </a>
+          </section>
+          <section>
+            <a href="https://www.linkedin.com/in/deyvahn/" target="_blank">
+                <i class="ri-linkedin-box-fill"></i><br>
+                LinkedIn
+            </a>
+          </section>
+          <section>
+            <a href="/assets/documents/ducharme_resume.pdf" target="_blank">
+                <i class="ri-file-list-3-fill"></i><br>
+                Resume
+            </a>
+          </section>
+      </nav>
     </header>
 
     <main id="content" class="main-content" role="main">
