@@ -1,6 +1,6 @@
 # Whiskey on the Rocks
 
-<a href="/assets/graphics/whiskey-banner.png" target="_blank">![](/assets/graphics/whiskey-banner.png)</a>
+<a class="image-link" href="/assets/graphics/whiskey-banner.png" target="_blank">![](/assets/graphics/whiskey-banner.png)</a>
 
 ---
 
@@ -18,11 +18,11 @@ The goal of this project was to use Maya's Python API and RenderMan's C++ API to
 
 The scene itself consists of a floor, the glass, the whiskey inside of it, an HDRI light and a RenderMan procedural node. The ice was created then exported to a RIB archive so it could be used by the RenderMan procedural plugin later.
 
-<a href="/assets/graphics/whiskey-viewport.PNG" target="_blank">![](/assets/graphics/whiskey-viewport.PNG)</a>
+<a class="image-link" href="/assets/graphics/whiskey-viewport.PNG" target="_blank">![](/assets/graphics/whiskey-viewport.PNG)</a>
 
 As previously mentioned, I was inspired by the materials Pixar created for RenderMan. The materials used were Frosted Ice, Dirty Glass, Whiskey and Formica Groovy. The HDRI light uses Pixar's Atrium as an environment map which was located in RenderMan's Preset Browser.
 
-<a href="/assets/graphics/pixar-preset-browser.PNG" target="_blank">![](/assets/graphics/pixar-preset-browser.PNG)</a>
+<a class="image-link" href="/assets/graphics/pixar-preset-browser.PNG" target="_blank">![](/assets/graphics/pixar-preset-browser.PNG)</a>
 
 ## Passing Data from Maya to RenderMan
 
@@ -30,7 +30,7 @@ The first step in the process was to pass the data from Maya to the procedural p
 
 The `set_data_string.py` was stored in the `python` directory of the `rfm_scripts` folder so that it could be imported and run from within Maya.
 
-<a href="/assets/graphics/set-data-string-path.png" target="_blank">![](/assets/graphics/set-data-string-path.png)</a>
+<a class="image-link" href="/assets/graphics/set-data-string-path.png" target="_blank">![](/assets/graphics/set-data-string-path.png)</a>
 
 ```python
 from set_data_string import set_data_string; set_data_string("RenderManProceduralShape");
@@ -143,7 +143,7 @@ def get_whiskey_surface_coordinates(shape_name):
 	return vertices;
 ```
 
-<a href="/assets/graphics/plugin-gui.png" target="_blank">![](/assets/graphics/plugin-gui.png)</a>
+<a class="image-link" href="/assets/graphics/plugin-gui.png" target="_blank">![](/assets/graphics/plugin-gui.png)</a>
 
 ## Rendering the Ice
 
