@@ -117,13 +117,13 @@ p a i {
   transition: var(--fade-in);
 }
 
-p i a:hover {
+p a i:hover {
   font-weight: normal;
 }
 
 p a {
   color: var(--tropical-orange);
-  opacity: 0.5;
+  opacity: 1;
   transition: var(--fade-in);
 }
 
