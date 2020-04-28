@@ -1,8 +1,8 @@
-## Featured Projects
+# Featured Projects
 
 ---
 
-### Whiskey on the Rocks
+## Whiskey on the Rocks
 
 <a href="/portfolio/whiskey-on-the-rocks/">![](/assets/graphics/whiskey-banner.png)</a>
 
@@ -12,7 +12,7 @@ This project combines the ability to load geometry at render-time alongside a po
 
 ---
 
-### Audio Visualizer
+## Audio Visualizer
 
 <a href="/portfolio/audio-visualizer">![](/assets/graphics/audio-visualizer.PNG)</a>
 
@@ -22,7 +22,7 @@ Leverage the Minium audio library and Processing, this project has simple shapes
 
 ---
 
-### Cashflow Classic
+## Cashflow Classic
 
 <a href="/portfolio/cashflow-classic">![](/assets/graphics/cashflow-classic.png)</a>
 
