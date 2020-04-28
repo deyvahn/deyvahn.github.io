@@ -18,6 +18,7 @@ h1,
 h2,
 h3 {
   font-family: "Pacifico", "Lato", sans-serif;
+  font-weight: 400;
 }
 
 body {
@@ -27,4 +28,8 @@ body {
 .page-header {
   background-color: var(--ocean-green);
   background-image: none;
+}
+
+.project-tagline {
+  font-size: 1.5em;
 }
