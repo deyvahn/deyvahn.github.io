@@ -111,12 +111,12 @@ pre {
   font-family: "Fira Code", monospace;
 }
 
-p a {
+p a i {
   color: var(--tropical-orange);
   opacity: 0.5;
   transition: var(--fade-in);
 }
 
-p a:hover {
+p i a:hover {
   font-weight: normal;
 }
