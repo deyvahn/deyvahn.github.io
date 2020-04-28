@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+# About Me
 
-You can use the [editor on GitHub](https://github.com/deyvahn/deyvahn.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Hello! 👋 My name is Devon Ducharme and I am currently a graduate student at Savannah College of Art and Design studying Interactive Design and Game Development. I am a tinkerer at heart with a passion for programming, computer graphics and problem-solving. When I am not working on various projects, I am watching documentaries on modern and ancient history, going on long walks and spending time with my friends.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+---
 
-### Markdown
+# Featured Projects
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+---
 
-```markdown
-Syntax highlighted code block
+## Whiskey on the Rocks
 
-# Header 1
-## Header 2
-### Header 3
+<a href="/portfolio/whiskey-on-the-rocks/">![](/assets/graphics/whiskey-banner.png)</a>
 
-- Bulleted
-- List
+This project combines the ability to load geometry at render-time alongside a popular 3D game development algorithm to create ice cubes that cannot overlap each other.
 
-1. Numbered
-2. List
+<p class="right-align"><a href="/portfolio/whiskey-on-the-rocks/">&#62;&#62;</a></p>
 
-**Bold** and _Italic_ and `Code` text
+---
 
-[Link](url) and ![Image](src)
-```
+## Audio Visualizer
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<a href="/portfolio/audio-visualizer">![](/assets/graphics/audio-visualizer.PNG)</a>
 
-### Jekyll Themes
+Leverage the Minium audio library and Processing, this project has simple shapes and colors that are driven by and morph with the song being played.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/deyvahn/deyvahn.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<p class="right-align"><a href="/portfolio/audio-visualizer">&#62;&#62;</a></p>
 
-### Support or Contact
+---
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Cashflow Classic
+
+<a href="/portfolio/cashflow-classic">![](/assets/graphics/cashflow-classic.png)</a>
+
+YETi CGI partnered with Rich Dad to port their Flash web game of the same name to modern web frameworks.
+
+<p class="right-align"><a href="/portfolio/cashflow-classic">&#62;&#62;</a></p>
+
+---
