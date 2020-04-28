@@ -120,3 +120,17 @@ p a i {
 p i a:hover {
   font-weight: normal;
 }
+
+p a {
+  color: var(--tropical-orange);
+  opacity: 0.5;
+  transition: var(--fade-in);
+}
+
+p a:hover {
+  opacity: 1;
+}
+
+p a img {
+  opacity: 1;
+}
