@@ -16,13 +16,13 @@
 .main-content h1,
 .main-content h3,
 .main-content h5 {
-  color: var(--tropical-orange);
+  color: var(--ocean-green);
 }
 
 .main-content h2,
 .main-content h4,
 .main-content h6 {
-  color: var(--ocean-green);
+  color: var(--tropical-orange);
 }
 
 h1,
@@ -46,7 +46,7 @@ body {
 }
 
 .navigation {
-  max-width: 500px;
+  max-width: 600px;
   min-width: 500px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -71,4 +71,14 @@ body {
 
 .navigation section a i {
   font-size: 2em;
+}
+
+.main-content p a {
+  color: var(--tropical-orange);
+  opacity: 0.5;
+  transition: var(--fade-in);
+}
+
+.main-content p a {
+  opacity: 1;
 }
