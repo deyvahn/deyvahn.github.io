@@ -13,15 +13,15 @@
   --tropical-orange: #fe6f4f;
   --fade-in: opacity 250ms;
 }
-h1,
-h3,
-h5 {
+.main-content h1,
+.main-content h3,
+.main-content h5 {
   color: var(--tropical-orange);
 }
 
-h2,
-h4,
-h6 {
+.main-content h2,
+.main-content h4,
+.main-content h6 {
   color: var(--ocean-green);
 }
 
