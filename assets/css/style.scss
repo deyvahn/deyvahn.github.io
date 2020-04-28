@@ -43,3 +43,7 @@ h2 .project-tagline {
   display: grid;
   text-align: center;
 }
+
+.navigation section {
+  grid-column: auto;
+}
