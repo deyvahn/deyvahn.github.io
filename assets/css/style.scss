@@ -129,8 +129,9 @@ p a {
 
 p a:hover {
   opacity: 1;
+  color: var(--tropical-orange);
 }
 
 p a img {
-  opacity: 1;
+  opacity: 1 !important;
 }
