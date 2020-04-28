@@ -13,6 +13,17 @@
   --tropical-orange: #fe6f4f;
   --fade-in: opacity 250ms;
 }
+h1,
+h3,
+h5 {
+  color: var(--tropical-orange);
+}
+
+h2,
+h4,
+h6 {
+  color: var(--ocean-green);
+}
 
 h1,
 h2,
@@ -36,6 +47,7 @@ h2 .project-tagline {
 
 .project-tagline {
   font-size: 1.5em;
+  opacity: 1;
 }
 
 .navigation {
