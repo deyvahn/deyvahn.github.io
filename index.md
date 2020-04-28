@@ -1,14 +1,8 @@
-# About Me
-
-Hello! 👋 My name is Devon Ducharme and I am currently a graduate student at Savannah College of Art and Design studying Interactive Design and Game Development. I am a tinkerer at heart with a passion for programming, computer graphics and problem-solving. When I am not working on various projects, I am watching documentaries on modern and ancient history, going on long walks and spending time with my friends.
+## Featured Projects
 
 ---
 
-# Featured Projects
-
----
-
-## Whiskey on the Rocks
+### Whiskey on the Rocks
 
 <a href="/portfolio/whiskey-on-the-rocks/">![](/assets/graphics/whiskey-banner.png)</a>
 
@@ -18,7 +12,7 @@ This project combines the ability to load geometry at render-time alongside a po
 
 ---
 
-## Audio Visualizer
+### Audio Visualizer
 
 <a href="/portfolio/audio-visualizer">![](/assets/graphics/audio-visualizer.PNG)</a>
 
@@ -28,7 +22,7 @@ Leverage the Minium audio library and Processing, this project has simple shapes
 
 ---
 
-## Cashflow Classic
+### Cashflow Classic
 
 <a href="/portfolio/cashflow-classic">![](/assets/graphics/cashflow-classic.png)</a>
 
