@@ -39,7 +39,7 @@ h2 .project-tagline {
 }
 
 .navigation {
-  width: 300px;
+  width: 500px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   text-align: center;
@@ -48,4 +48,18 @@ h2 .project-tagline {
 
 .navigation section {
   grid-column: auto;
+}
+
+.navigation section a {
+  color: white;
+  opacity: 0.5;
+  transition: var(--fade-in);
+}
+
+.navigation section a:hover {
+  opacity: 1;
+}
+
+.navigation section a i {
+  font-size: 1.25em;
 }
