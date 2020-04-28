@@ -110,3 +110,17 @@ code,
 pre {
   font-family: "Fira Code", monospace;
 }
+
+p a {
+  color: var(--ocean-green);
+}
+
+p a i {
+  color: var(--ocean-green);
+  opacity: 0.5;
+  transition: var(--fade-in);
+}
+
+p a:hover {
+  font-weight: normal;
+}
