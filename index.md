@@ -24,10 +24,8 @@ Leverage the Minium audio library and Processing, this project has simple shapes
 
 ## Cashflow Classic
 
-<a class="image-link" href="/portfolio/cashflow-classic">![](/assets/graphics/cashflow-classic.png)</a>
+<a class="image-link" href="/portfolio/cashflow-classic">![](/assets/graphics/cashflow-splash.png)</a>
 
 YETi CGI partnered with Rich Dad to port their Flash web game of the same name to modern web frameworks.
 
 <p class="right-align"><a href="/portfolio/cashflow-classic">&#62;&#62;</a></p>
-
----
