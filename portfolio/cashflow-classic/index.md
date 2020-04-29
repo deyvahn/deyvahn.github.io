@@ -38,7 +38,7 @@ Cashflow Classic starts with each player selecting their dream. On the same card
 
 The graphics throughout the game were managed by wrapper classes for the CreateJS API. Since we had access to the original graphics of the game and the game was originally made in Flash, using a graphics API that behaved very similarly made the most sense. EaselJS was used to display the graphics and TweenJS was used to move the pieces around the board.
 
-<a class="image-link" href="/assets/graphics/cashflow-classic.png" target="_blank">![](/assets/graphics/cashflow-lobby.png)</a>
+<a class="image-link" href="/assets/graphics/cashflow-classic.png" target="_blank">![](/assets/graphics/cashflow-classic.png)</a>
 
 In addition to using EaselJS for displaying bitmap-based graphics, we also used HTML for some of the graphical user interface elements including the financial statement. While we could have manually placed text using EaselJS, leveraging HTML element also allowed us to use CSS to create the grid layout much more easily. Additionally, it allowed us to more easily implement scrollable areas since we would have had to implement that manually if we were to use exclusively EaselJS.
 
