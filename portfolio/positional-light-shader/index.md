@@ -16,7 +16,7 @@ For the VSFX 755 course, we were tasked with expanding upon a side mask shader p
 
 ---
 
-This project began by implementing the shader itself using Arnold's C++ API. The source code for the shader was written in the `ddDistanceLights.cpp` file and stored a subfolder of the project folder `Arnold_shaders` called `src_c++`. The shader itself was compiled to the `Arnold_shaders` folder.
+This project began by implementing the shader itself using Arnold's C++ API. The source code for the shader was written in the `ddDistanceLights.cpp` <a href="https://github.com/deyvahn/positional_shader/blob/master/ddDistanceLights.cpp" target="_blank"><i class="ri-github-fill"></i></a> file and stored a subfolder of the project folder `Arnold_shaders` called `src_c++`. The shader itself was compiled to the `Arnold_shaders` folder.
 
 ```bash
 cd maya/projects/Arnold_shaders/src_c++/ddDistanceLights.cpp
