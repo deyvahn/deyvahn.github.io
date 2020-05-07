@@ -190,19 +190,19 @@ Finally, the shader then determined if the normal was front-facing or not. If it
 ```cpp
 //shader_evaluate continued...
 
-if(sg->N == sg->Nf) {
-		if(swap_colors) {
-			sg->out.RGB() = mix(secondary_color, primary_color, blend);
-		} else {
-			sg->out.RGB() = mix(primary_color, secondary_color, blend);
-		}
-	} else {
-		if(swap_colors) {
-			sg->out.RGB() = mix(primary_color, secondary_color, blend);
-		} else {
-			sg->out.RGB() = mix(secondary_color, primary_color, blend);
-		}
-	}
+    if(sg->N == sg->Nf) {
+        if(swap_colors) {
+            sg->out.RGB() = mix(secondary_color, primary_color, blend);
+        } else {
+            sg->out.RGB() = mix(primary_color, secondary_color, blend);
+        }
+    } else {
+        if(swap_colors) {
+            sg->out.RGB() = mix(primary_color, secondary_color, blend);
+        } else {
+            sg->out.RGB() = mix(secondary_color, primary_color, blend);
+        }
+    }
 } // End of shader_evaluate
 ```
 
@@ -210,7 +210,7 @@ In Maya, the scene was created by make half-circles and converting them to mesh 
 
 <a class="image-link" href="/assets/graphics/lights-viewport.PNG" target="_blank">![](/assets/graphics/lights-viewport.PNG)</a>
 
-Each got their own version of the shader with different color values. The `light_intensity` value was then animated to give the scene its life. An `aiAtmosphere` was used so that the scene would have volumetric lighting.
+Each got their own version of the shader with different values in each input. The `light_intensity` value was then animated to give the scene its life. An `aiAtmosphere` was used so that the scene would have volumetric lighting.
 
 <a class="image-link" href="/assets/graphics/lights-shaders.PNG" target="_blank">![](/assets/graphics/lights-shaders.PNG)</a>
 
