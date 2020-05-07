@@ -27,20 +27,20 @@ Each of the input parameters that would appear in the UI was defined in the `par
 ```cpp
 namespace {
 	enum paramIndex {k_light_intensity, k_primary_red_channel, k_primary_green_channel, k_primary_blue_channel, k_secondary_red_channel, k_secondary_green_channel, k_secondary_blue_channel, k_swap_colors, k_height, k_blur};
-	};
+};
 
 static const char* mode_labels[] = {"x", "y", "z", NULL};
 node_parameters {
     AiParameterFlt("lightIntensity", 20.0f);
-	AiParameterEnum("primaryRedChannel", 0, mode_labels);
-	AiParameterEnum("primaryGreenChannel", 1, mode_labels);
-	AiParameterEnum("primaryBlueChannel", 2, mode_labels);
-	AiParameterEnum("secondaryRedChannel", 0, mode_labels);
-	AiParameterEnum("secondaryGreenChannel", 1, mode_labels);
-	AiParameterEnum("secondaryBlueChannel", 2, mode_labels);
-	AiParameterBool("swapColors", 0);
-	AiParameterFlt("height", 0.5f);
-	AiParameterFlt("blur", 0.5f);
+    AiParameterEnum("primaryRedChannel", 0, mode_labels);
+    AiParameterEnum("primaryGreenChannel", 1, mode_labels);
+    AiParameterEnum("primaryBlueChannel", 2, mode_labels);
+    AiParameterEnum("secondaryRedChannel", 0, mode_labels);
+    AiParameterEnum("secondaryGreenChannel", 1, mode_labels);
+    AiParameterEnum("secondaryBlueChannel", 2, mode_labels);
+    AiParameterBool("swapColors", 0);
+    AiParameterFlt("height", 0.5f);
+    AiParameterFlt("blur", 0.5f);
 }
 ```
 
@@ -65,7 +65,7 @@ shader_evaluate {
 	float blur = AiShaderEvalParamFlt(k_blur);
 	float height = AiShaderEvalParamFlt(k_height);
 
-    // shader_evaluate continued...
+// shader_evaluate continued...
 ```
 
 The shader first mapped the `[x,y,z]` coordinates of whatever shape would have the shader applied to it to that shaders `[r,g,b]` channels based on user input. Since these values can be greater than `1`, which would result in that channel being maxed out, only the decimal value of each coordinate is used. If any of the values were negative, they were made positive.
