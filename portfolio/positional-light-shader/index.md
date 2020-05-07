@@ -2,7 +2,7 @@
 
 ---
 
-<video src="/assets/graphics/positional_lights.mp4"></video>
+<video src="/assets/graphics/positional_lights.mp4" controls></video>
 
 ---
 
