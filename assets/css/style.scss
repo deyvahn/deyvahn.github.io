@@ -55,24 +55,24 @@ body {
   margin: 0 auto;
 }
 
+.navigation section {
+  grid-column: auto;
+}
+
 .github {
-  grid-column-start: 1;
+  grid-column-start: 2;
   grid-column-end: 3;
 }
 
 .linked-in {
   grid-column-start: 3;
-  grid-column-end: 5;
+  grid-column-end: 4;
 }
 
 @media screen and (max-width: 600px) {
   .navigation {
     grid-template-columns: repeat(4, 1fr);
   }
-}
-
-.navigation section {
-  grid-column: auto;
 }
 
 .navigation section a {
