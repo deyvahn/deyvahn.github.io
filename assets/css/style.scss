@@ -60,8 +60,8 @@ body {
 }
 
 .github {
-  grid-column-start: 2 !important;
-  grid-column-end: 3 !important;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
 .linked-in {
@@ -125,5 +125,9 @@ video {
 }
 
 .logo {
-  width: 40%;
+  width: 50%;
+}
+
+.project-name {
+  margin-bottom: 1rem;
 }
