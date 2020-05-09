@@ -210,7 +210,7 @@ In Maya, the scene was created by make half-circles and converting them to mesh 
 
 <a class="image-link" href="/assets/graphics/lights-viewport.PNG" target="_blank">![](/assets/graphics/lights-viewport.PNG)</a>
 
-<a class="image-link" href="/assets/graphics/lights_render.png" target="_blank">![](/assets/graphics/lights_render.png)</a>
+<a class="image-link" href="/assets/graphics/lights_render.jpg" target="_blank">![](/assets/graphics/lights_render.jpg)</a>
 
 Each got their own version of the shader with different values in each input. The `light_intensity` value was then animated to give the scene its life. An `aiAtmosphere` was used so that the scene would have volumetric lighting.
 
