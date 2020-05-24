@@ -2,6 +2,8 @@
 
 ---
 
+## Drop Radio
+
 <a class="image-link" href="/portfolio/drop-radio" target="_blank">![](/assets/graphics/drop-ui.png)</a>
 
 This project was a redone version of a pervious audio visualizer that now runs natively on the web, had audio playback controls and line art powered by the music.
