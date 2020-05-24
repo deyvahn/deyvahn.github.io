@@ -2,6 +2,14 @@
 
 ---
 
+<a class="image-link" href="/portfolio/drop-radio" target="_blank">![](/assets/graphics/drop-ui.png)</a>
+
+This project was a redone version of a pervious audio visualizer that now runs natively on the web, had audio playback controls and line art powered by the music.
+
+<p class="right-align"><a href="/portfolio/drop-radio">&#62;&#62;</a></p>
+
+---
+
 ## Whiskey on the Rocks
 
 <a class="image-link" href="/portfolio/whiskey-on-the-rocks/">![](/assets/graphics/whiskey-banner.png)</a>
