@@ -544,6 +544,8 @@ The `StopButton` and `PlayButton` both use axis-aligned bounding box collision d
 The `PanControl` also has mouse interaction. By dragging the mouse from left-to-right, the user can control the panning of the audio as well as rotate the knob.
 
 ```javascript
+// PanControl.js
+
 // If the mouse is over the pan control and clicked, the audio is panned based on the rotation.
   _handleInteraction() {
     if (mouseButton === LEFT && this._clicked) {
