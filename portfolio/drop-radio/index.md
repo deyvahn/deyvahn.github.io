@@ -25,7 +25,7 @@ As a graduate student at Savannah College of Art and Design, I was tasked with i
 
 ---
 
-# Setting Up Audio
+## Setting Up Audio
 
 To make the audio data more easily usable across the visualization, an `Audio` class was created to act as a wrapper with a variety of `static` functions, accessors and mutators. Rather than passing around an instance of an `Audio` object, having a single manager of all the data allowed for the graphical and UI elements to be able to influence the audio from a single source.
 
