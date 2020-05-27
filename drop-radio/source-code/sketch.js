@@ -46,6 +46,12 @@ const opacityFade = 255 * 0.034;
 // A collection of all the lines that are generated in the scene.
 const lines = [];
 
+// The text that shows the key for hiding the UI.
+let hideUIText = null;
+
+// The text that shows the key for taking a screenshot.
+let screenshotText = null;
+
 // One of p5.js's built-in functions. Runs before the first frame of the sketch.
 function setup() {
   // The visualizer starts by creating a canvas element and a graphics buffer to draw the lines to.
@@ -65,6 +71,7 @@ function setup() {
   createTimeText();
   createVolumeBar();
   createVolumeText();
+  createKeyText();
   rectMode(CENTER);
 }
 
@@ -90,6 +97,8 @@ function draw() {
     stopButton.draw(opacity);
     durationText.draw(opacity);
     volumeBar.draw(opacity);
+    hideUIText.draw(opacity);
+    screenshotText.draw(opacity);
     drawCurrentTimeText(opacity);
     drawVolumeText(opacity);
 
@@ -201,6 +210,9 @@ function onAudioLoad() {
   Audio.fft = new p5.FFT();
   Audio.play();
 
+  // Display the UI.
+  showUI = true;
+
   // The fading and graphics are reset.
   opacity = 0;
   graphics.clear();
@@ -235,6 +247,18 @@ function windowResized() {
   durationText.position = createVector(windowWidth * 0.95, windowHeight * 0.95);
   volumeBar.position = createVector(windowWidth * 0.95, windowHeight * 0.45);
   volumeText.position = createVector(windowWidth * 0.95, windowHeight * 0.7);
+  hideUIText.position = createVector(windowWidth * 0.05, windowHeight * 0.1);
+  if (windowWidth > 1280) {
+    screenshotText.position = createVector(
+      windowWidth * 0.12,
+      windowHeight * 0.1
+    );
+  } else {
+    screenshotText.position = createVector(
+      windowWidth * 0.2,
+      windowHeight * 0.1
+    );
+  }
 }
 
 // Creates the play button.
@@ -285,6 +309,24 @@ function createVolumeText() {
   volumeText.value = "100%";
   volumeText.font = font;
   volumeText.fontSize = 16;
+}
+
+// Creates the text that displays the hotkeys
+function createKeyText() {
+  hideUIText = new Text();
+  hideUIText.position = createVector(windowWidth * 0.05, windowHeight * 0.1);
+  hideUIText.value = "Hide UI: ENTER";
+  hideUIText.font = font;
+  hideUIText.fontSize = 16;
+
+  screenshotText = new Text();
+  screenshotText.position = createVector(
+    windowWidth * 0.12,
+    windowHeight * 0.1
+  );
+  screenshotText.value = "Screenshot: SHIFT";
+  screenshotText.font = font;
+  screenshotText.fontSize = 16;
 }
 
 // Creates the pan control knob.

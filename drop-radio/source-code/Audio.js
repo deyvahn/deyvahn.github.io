@@ -1,6 +1,11 @@
 // The wrapper class for the sound.
 class Audio {
-  // Handles the loading of a new audio file.
+  /*
+    Handles the loading of the audio file.
+    - file:p5.File, the audio file being loaded.
+    - onLoad:function, the callback for when the file loads.
+    - whileLoading:function, the callback for the duration of the files loading.
+  */
   static setup(file, onLoad, whileLoading) {
     if (Audio._file) Audio._file.stop();
     Audio._file = loadSound(file, onLoad, Audio.handleError, whileLoading);
@@ -43,13 +48,9 @@ class Audio {
     return Audio._fft.getEnergy("bass");
   }
 
-  // Handles playing and skipping to parts of the audio file.
-  static play(seconds = 0) {
-    if (seconds > 0) {
-      Audio._file.play(seconds);
-    } else {
-      Audio._file.play();
-    }
+  // Handles playing the audio.
+  static play() {
+    Audio._file.play();
   }
 
   // Handles pausing the audio file.
