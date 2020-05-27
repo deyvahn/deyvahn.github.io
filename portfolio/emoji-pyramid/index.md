@@ -18,7 +18,7 @@ For this assignment, we were tasked with creating an OSL shader that could load 
 
 ## Setting up the Project
 
-In order to load in the textures using the scripts mentioned below, a project folder is needed. This is so the python script `create_emojis.py` <a href="https://github.com/deyvahn/positional_shader/blob/master/ddDistanceLights.cpp" target="_blank"><i class="ri-github-fill"></i></a> that creates the spheres can load the texture files from the `sourceimages` directory.
+In order to load in the textures using the scripts mentioned below, a project folder is needed. This is so the python script `create_emojis.py` <a href="https://github.com/deyvahn/emoji-pyramid/blob/master/create_emojis.py" target="_blank"><i class="ri-github-fill"></i></a> that creates the spheres can load the texture files from the `sourceimages` directory.
 
 ```cpp
 maya -> projects -> your_project -> sourceimages
@@ -132,7 +132,11 @@ def add_random_textures():
 
 <a class="image-link" href="/assets/graphics/render-2.png" target="_blank">![](/assets/graphics/render-2.png)</a>
 
-`MOOMTexture.osl` <a href="https://github.com/deyvahn/positional_shader/blob/master/ddDistanceLights.cpp" target="_blank"><i class="ri-github-fill"></i></a> was a shader written to map the random texture file to the shape it is assigned to. The shader takes the map, applies `gamma` to the `r`, `g` and `b` values then sets the `outputRGB` to the corrected colors. This is called linearization and is applied to prevent images from becoming washed out (enable via the `linearize` boolean).
+`MOOMTexture.osl` <a href="https://github.com/deyvahn/emoji-pyramid/blob/master/MOOMTexture.osl" target="_blank"><i class="ri-github-fill"></i></a> was a shader written to map the random texture file to the shape it is assigned to. The shader takes the map, applies `gamma` to the `r`, `g` and `b` values then sets the `outputRGB` to the corrected colors. This is called linearization and is applied to prevent images from becoming washed out (enable via the `linearize` boolean). The shader itself was written in a project folder called `Arnold_osl` in the subdirectory `src`.
+
+```cpp
+maya -> projects -> Arnold_osl -> src
+```
 
 ```cpp
 shader
