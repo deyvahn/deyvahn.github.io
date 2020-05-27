@@ -4,6 +4,16 @@ This page is for all the projects in VSFX 755 during the Spring 2020 quarter at 
 
 ---
 
+## Emoji Pyramid
+
+<a class="image-link" href="/portfolio/emoji-pyramid" target="_blank">![](/assets/graphics/render-1.png)</a>
+
+This project utilized OSL to randomly assign textures to procedurally-generated spheres to form a pyramid.
+
+<p class="right-align"><a href="/portfolio/emoji-pyramid">&#62;&#62;</a></p>
+
+---
+
 ## Whiskey on the Rocks
 
 <a class="image-link" href="/portfolio/whiskey-on-the-rocks/">![](/assets/graphics/whiskey-banner.png)</a>
