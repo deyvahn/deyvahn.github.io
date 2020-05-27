@@ -18,7 +18,7 @@ For this assignment, we were tasked with creating an OSL shader that could load 
 
 ## Setting up the Project
 
-In order to load in the textures using the scripts mentioned below, a project folder is needed. This is so the python script `create_emojis.py` <a href="https://github.com/deyvahn/emoji-pyramid/blob/master/create_emojis.py" target="_blank"><i class="ri-github-fill"></i></a> that creates the spheres can load the texture files from the `sourceimages` directory.
+In order to load in the textures using the scripts mentioned below, a project folder is needed. This is so the python script `create_emojis.py` <a href="https://github.com/deyvahn/emoji-pyramid/blob/master/create_emojis.py" target="_blank"><i class="ri-github-fill"></i></a> that creates the spheres can load the texture files from the `sourceimages` directory. The texture maps were made from the emoji vector files provided by [Twemoji](https://github.com/twitter/twemoji).
 
 ```cpp
 maya -> projects -> your_project -> sourceimages
@@ -193,6 +193,8 @@ MOOMTexture(
 In HyperShade, the path is passed through from the `aiUserDataString` node to the `mapPath` property of the shader where the `outputRGB` is then passed to the `aiStandardSurface` shader which is then applied to the group of spheres that make up the pyramid.
 
 <a class="image-link" href="/assets/graphics/hypershade.PNG" target="_blank">![](/assets/graphics/hypershade.PNG)</a>
+
+---
 
 # Reflections
 
